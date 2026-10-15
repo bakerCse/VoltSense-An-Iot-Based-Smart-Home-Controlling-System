@@ -20,17 +20,24 @@ The system integrates power conversion hardware with edge-computing microcontrol
 
 ## System Diagrams & Prototypes
 
-*   **Block Diagram:** ![System Block Diagram](Necessary_Diagrams/Iot_Based_Smart_Solution_Block_Diagram.jpg)
-*   **Circuit Diagram:** ![Smart Inverter Circuit](Necessary_Diagrams/smart_inverter_system_only.jpg)
-*   **Flow Chart:** ![System Flow](Necessary_Diagrams/Solar_Power_Management_flow_chart.pdf)
-*   **Hardware Prototypes:**
-    *   ![LCD and Wi-Fi Setup](Prototype_Images/image_1.PNG)
-    *   ![Prototype Testing Phase 1](Prototype_Images/image_2.PNG)
-    *   ![Full Load Bench Testing](Prototype_Images/image_3.PNG)
+*   **Block Diagram:**<br>
+    <img src="Necessary_Diagrams/Iot_Based_Smart_Solution_Block_Diagram.jpg" width="600" alt="System Block Diagram">
+
+*   **Circuit Diagram:**<br>
+    <img src="Necessary_Diagrams/smart_inverter_system_only.jpg" width="600" alt="Smart Inverter Circuit">
+
+*   **Flow Chart:**<br>
+    <img src="Necessary_Diagrams/Solar_Power_Management_flow_chart.jpg" width="600" alt="System Flow">
+
+*   **Hardware Prototypes:**<br>
+    <p align="left">
+      <img src="Prototype_Images/image_1.PNG" width="32%" alt="LCD and Wi-Fi Setup">
+      <img src="Prototype_Images/image_2.PNG" width="32%" alt="Prototype Testing Phase 1">
+      <img src="Prototype_Images/image_3.PNG" width="32%" alt="Full Load Bench Testing">
+    </p>
 
 ## Source Code
 The complete firmware is located in the `Source_Code/Esp-8266_Source_Code.ino` file[cite: 55]. The system is programmed in C/C++ using the Arduino IDE and relies on standard libraries including `<ESP8266WiFi.h>`, `<ESP8266WebServer.h>`, `<Wire.h>`, `<Adafruit_INA219.h>`, and `<LiquidCrystal_I2C.h>`[cite: 54].
-
 
 ## Documentation Reference
 For a deeper understanding of the system's mathematics, waveform topologies, and project planning, please email at: baker.cse@isu.ac.bd or mdbaker243@gmail.com
